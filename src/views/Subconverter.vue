@@ -219,7 +219,7 @@ const project = "https://github.com/CareyWang/sub-web";
 const remoteConfigSample =
   "https://raw.githubusercontent.com/tindy2013/subconverter/master/base/config/example_external_config.ini";
 const gayhubRelease = "https://github.com/tindy2013/subconverter/releases";
-const defaultBackend = "https://api.wcc.best/sub?";
+const defaultBackend = "http://aly.yue-shuang.fun:25500/sub?new_name=false&";
 const shortUrlBackend = "https://api.suo.yt/short";
 const configUploadBackend = "https://api.wcc.best/config/upload";
 const tgBotLink = "https://t.me/CareyWong_bot";
@@ -248,7 +248,11 @@ export default {
           ssr: "ssr",
           ssd: "ssd"
         },
-        backendOptions: [{ value: "http://127.0.0.1:25500/sub?" }],
+        backendOptions: [{ value: "http://127.0.0.1:25500/sub?" },
+                        { value: "http://aly.yue-shuang.fun:25500/sub?new_name=false&" },
+                        { value: "http://aly.yue-shuang.fun:25500/sub?new_name=true&" },
+                        { value: "https://api.wcc.best/sub?"}
+                        ],
         remoteConfig: [
           {
             label: "universal",
