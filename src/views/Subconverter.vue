@@ -251,7 +251,8 @@ export default {
         backendOptions: [{ value: "http://127.0.0.1:25500/sub?" },
                         { value: "http://aly.yue-shuang.fun:25500/sub?new_name=false&" },
                         { value: "http://aly.yue-shuang.fun:25500/sub?new_name=true&" },
-                        { value: "https://api.wcc.best/sub?"}
+                        { value: "https://api.wcc.best/sub?new_name=false&"},
+                        { value: "https://api.wcc.best/sub?new_name=true&"},
                         ],
         remoteConfig: [
           {
